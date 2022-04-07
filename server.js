@@ -13,7 +13,7 @@ mongoose.connect('mongodb://localhost:27017/login-app-db', {
 	useUnifiedTopology: true,
 	useCreateIndex: true
 })
-
+/*test*/
 const app = express()
 app.use('/', express.static(path.join(__dirname, 'static')))
 app.use(bodyParser.json())
